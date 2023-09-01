@@ -1,6 +1,7 @@
 # Linear Regression Projects
 
-Welcome to the Linear Regression Projects repository! This repository contains two separate projects: **House Price Prediction** and **Car Price Prediction**. Each project focuses on developing a machine learning model using linear regression to predict prices based on various features and attributes. This README.md file will guide you through the structure, usage, and getting started with both projects.
+Welcome to the Linear Regression Projects repository! This repository contains two separate projects: **House Price Prediction**, **Car Price Prediction** and  **Big Mart 
+Sales Prediction Project**. Each project focuses on developing a machine learning model using linear regression to predict prices based on various features and attributes. This README.md file will guide you through the structure, usage, and getting started with both projects.
 
 ## Table of Contents
 
@@ -21,6 +22,10 @@ The goal of the House Price Prediction project is to build a predictive model th
 ### Car Price Prediction Project
 
 The Car Price Prediction project aims to develop a machine learning model that predicts the price of cars using attributes like make, model, year, and mileage. This can be useful for both buyers and sellers in the used car market.
+
+### Big Mart Sales Prediction Project
+
+The "Big Market Sales Prediction" project aims to predict sales in a market dataset using machine learning. The XGBoost regression algorithm is employed for this purpose.
 
 ## Installation
 
@@ -52,19 +57,19 @@ To get started with either project, follow these steps:
 Once you have set up the environment, you can start using the projects. Here's how:
 
 1. Prepare your data:
-   - Place the necessary dataset CSV files in the appropriate locations for each project (e.g., `/house-price-prediction/data.csv` and `/car-price-prediction/car_data.csv`).
-
+   - Place the necessary dataset CSV files in the appropriate locations for each project.
 2. Run the data processing and model training scripts for each project:
    ```
    house_price_prediction.ipynb
    car_price_prediction.ipynb
+   Big_Market_Sales_Prediction.ipynb
    ```
 
 3. The scripts will load the data, preprocess it, train the models, and evaluate their performance.
 
 ## Model Training
 
-Both projects involve training predictive models using linear regression. The scripts (`house_price_prediction.ipynb` and `car_price_prediction.ipynb`) handle data preprocessing, model training, and evaluation for their respective projects.
+The projects involves training predictive models using linear regression. The scripts (`house_price_prediction.ipynb`, `car_price_prediction.ipynb` and `Big_Market_Sales_Prediction.ipynb`) handle data preprocessing, model training, and evaluation for their respective projects.
 
 ## Evaluation
 
@@ -75,5 +80,4 @@ The evaluation of each model's performance is done using relevant metrics such a
 Contributions to improve these projects are welcome! If you encounter issues or have suggestions for enhancements, feel free to open issues or submit pull requests.
 
 ## License
-
 ---
